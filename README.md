@@ -20,6 +20,10 @@ El esquema contiene dos tablas:
 
 La relación es de uno a muchos: un departamento puede tener varios empleados y cada empleado se asocia a un departamento mediante `empleado.depID`.
 
+## Diseño en línea
+
+Consulta el diseño lógico de la base de datos en [drawSQL](https://drawsql.app/draw?t=70e28087-9b49-406b-97f7-1f892b5cd6ef&view=1).
+
 ## Diagramas
 
 ### Tabla `empleado`
