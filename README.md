@@ -34,6 +34,22 @@ La relación es de uno a muchos: un departamento puede tener varios empleados y 
 
 ![Relación uno a muchos entre departamento y empleado](assets/images/relacion-empleado-departamento.png)
 
+## Implementación SQL
+
+El esquema se creó con sentencias SQL. La definición establece claves primarias autoincrementales, campos obligatorios para el nombre y apellido del empleado, y una clave foránea desde `empleado.depID` hacia `departamento.depID`.
+
+### Creación de las tablas
+
+![Sentencias SQL para crear las tablas departamento y empleado](assets/images/sql-create-tables.png)
+
+### Resultado de las tablas
+
+![Tablas departamento y empleado creadas y vacías](assets/images/sql-table-results.png)
+
+### Estructura del esquema
+
+![Estructura de las tablas en el editor SQL de Programiz](assets/images/programiz-schema.png)
+
 ## Documento
 
 El documento de trabajo está disponible en [`DISEÑO_LÓGICO_FÍSICO_WORKBENCH.docx`](DISE%C3%91O_L%C3%93GICO_F%C3%8DSICO_WORKBENCH.docx).
